@@ -23,7 +23,8 @@ $result = mysqli_query($conn, $sql) or die("error");
 <body>
     <div class="head">
         <p class="j">Food Item</p> </br>
-        <a class="poc" href="http://localhost/FDS/PHP/view.php">View Cart <img src="../pictures/cart.png" height="35px" width="30px"></a>
+        <a class="j" href="http://localhost/FDS/PHP/logout.php">Logout</a>
+        <a class="j" href="http://localhost/FDS/PHP/view.php">View Cart <img src="../pictures/cart.png" height="35px" width="30px"></a>
     </div>
     <!-- <hr class="rod"> -->
     <div class="container">
